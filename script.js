@@ -8,5 +8,5 @@ const generateRndInt = (min,max)=> {
 
 //return a random project from the array of projects
 const getProject = () => {
-    return projectList[generateRndInt(0,50)];
+    return projectList[generateRndInt(0,49)];
 }

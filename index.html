@@ -8,8 +8,13 @@
 </head>
 <body>
     <div class="container">
-        <h2 class="title">Pick a Project</h2>
-        <h1 id="project-name" onload="document.getElementById('project-name').innerHTML = getProject()"></h1>
+        <div class="logo">
+            <h2 class="title">Pick a Project</h2>
+        </div>
+        <div class="screen">
+            <h1 id="project-name" onload="document.getElementById('project-name').innerHTML = getProject()"></h1>                
+        </div>
+        
         <button onclick="document.getElementById('project-name').innerHTML = getProject()">Roll the dice</button>
     </div>
 
