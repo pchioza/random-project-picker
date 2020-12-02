@@ -9,8 +9,8 @@
 <body>
     <div class="container">
         <h2 class="title">Pick a Project</h2>
-        <h1 class="project-name"></h1>
-        <button onclick="">Roll the dice</button>
+        <h1 id="project-name" onload="document.getElementById('project-name').innerHTML = getProject()"></h1>
+        <button onclick="document.getElementById('project-name').innerHTML = getProject()">Roll the dice</button>
     </div>
 
     <script src="script.js"></script>
